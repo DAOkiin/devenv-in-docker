@@ -1,7 +1,7 @@
 
 FROM alpine:3.4
 
-ARG GOSU_VERSION
+ARG GOSU_VERSION=1.10
 RUN set -ex; \
   \
 # update on-the-fly and not cached locally, use virtual group
